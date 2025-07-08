@@ -21,6 +21,7 @@ namespace Assignment_3.Controllers
         // GET: AppController/Quiz/
         public ActionResult Quiz(string quiz_topic)
         {
+            ViewBag.title = quiz_topic;
             return View();
         }
 

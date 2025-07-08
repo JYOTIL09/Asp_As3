@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Asp_As3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|c:\\asp_as3\\apputilities\\json_utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:apputilities\\json_utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|c:\\asp_as3\\views\\app\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:views\\app\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,32 +15,20 @@
       "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:controllers\\appcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|c:\\asp_as3\\database\\questionnaire.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:database\\questionnaire.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|c:\\asp_as3\\views\\app\\quiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:views\\app\\quiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|c:\\asp_as3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|c:\\asp_as3\\database\\topics.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:database\\topics.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|c:\\asp_as3\\models\\topicslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:models\\topicslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|c:\\asp_as3\\database\\topics.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:database\\topics.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|c:\\asp_as3\\database\\questionnaire.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:database\\questionnaire.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|c:\\asp_as3\\apputilities\\json_utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:apputilities\\json_utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|c:\\asp_as3\\assignment 3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:assignment 3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|c:\\asp_as3\\views\\app\\quiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C69C0B1C-BF92-4E3D-900D-ABD55B9D9F25}|Assignment 3.csproj|solutionrelative:views\\app\\quiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,37 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Quiz.cshtml",
               "DocumentMoniker": "C:\\Asp_As3\\Views\\App\\Quiz.cshtml",
               "RelativeDocumentMoniker": "Views\\App\\Quiz.cshtml",
               "ToolTip": "C:\\Asp_As3\\Views\\App\\Quiz.cshtml",
               "RelativeToolTip": "Views\\App\\Quiz.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-08T22:08:58.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Asp_As3\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Asp_As3\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T21:15:12.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "topics.json",
               "DocumentMoniker": "C:\\Asp_As3\\Database\\topics.json",
               "RelativeDocumentMoniker": "Database\\topics.json",
@@ -89,72 +68,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "JSON_Utilities.cs",
               "DocumentMoniker": "C:\\Asp_As3\\AppUtilities\\JSON_Utilities.cs",
               "RelativeDocumentMoniker": "AppUtilities\\JSON_Utilities.cs",
               "ToolTip": "C:\\Asp_As3\\AppUtilities\\JSON_Utilities.cs",
               "RelativeToolTip": "AppUtilities\\JSON_Utilities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-08T17:38:16.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Assignment 3.csproj",
-              "DocumentMoniker": "C:\\Asp_As3\\Assignment 3.csproj",
-              "RelativeDocumentMoniker": "Assignment 3.csproj",
-              "ToolTip": "C:\\Asp_As3\\Assignment 3.csproj",
-              "RelativeToolTip": "Assignment 3.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-08T17:37:25.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "TopicsList.cs",
               "DocumentMoniker": "C:\\Asp_As3\\Models\\TopicsList.cs",
               "RelativeDocumentMoniker": "Models\\TopicsList.cs",
               "ToolTip": "C:\\Asp_As3\\Models\\TopicsList.cs",
               "RelativeToolTip": "Models\\TopicsList.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswBYAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-08T17:35:59.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Asp_As3\\Views\\App\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\App\\Index.cshtml",
               "ToolTip": "C:\\Asp_As3\\Views\\App\\Index.cshtml",
               "RelativeToolTip": "Views\\App\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-08T17:34:01.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppController.cs",
               "DocumentMoniker": "C:\\Asp_As3\\Controllers\\AppController.cs",
               "RelativeDocumentMoniker": "Controllers\\AppController.cs",
               "ToolTip": "C:\\Asp_As3\\Controllers\\AppController.cs",
               "RelativeToolTip": "Controllers\\AppController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-08T17:32:09.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "questionnaire.json",
               "DocumentMoniker": "C:\\Asp_As3\\Database\\questionnaire.json",
               "RelativeDocumentMoniker": "Database\\questionnaire.json",
