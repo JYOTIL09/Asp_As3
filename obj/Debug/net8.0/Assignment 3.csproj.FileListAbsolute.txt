@@ -1,0 +1,33 @@
+C:\Asp_As3\bin\Debug\net8.0\appsettings.Development.json
+C:\Asp_As3\bin\Debug\net8.0\appsettings.json
+C:\Asp_As3\bin\Debug\net8.0\Database\questionnaire.json
+C:\Asp_As3\bin\Debug\net8.0\Database\topics.json
+C:\Asp_As3\bin\Debug\net8.0\Assignment 3.staticwebassets.runtime.json
+C:\Asp_As3\bin\Debug\net8.0\Assignment 3.exe
+C:\Asp_As3\bin\Debug\net8.0\Assignment 3.deps.json
+C:\Asp_As3\bin\Debug\net8.0\Assignment 3.runtimeconfig.json
+C:\Asp_As3\bin\Debug\net8.0\Assignment 3.dll
+C:\Asp_As3\bin\Debug\net8.0\Assignment 3.pdb
+C:\Asp_As3\obj\Debug\net8.0\Assignment 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Asp_As3\obj\Debug\net8.0\Assignment 3.AssemblyInfoInputs.cache
+C:\Asp_As3\obj\Debug\net8.0\Assignment 3.AssemblyInfo.cs
+C:\Asp_As3\obj\Debug\net8.0\Assignment 3.csproj.CoreCompileInputs.cache
+C:\Asp_As3\obj\Debug\net8.0\Assignment 3.MvcApplicationPartsAssemblyInfo.cache
+C:\Asp_As3\obj\Debug\net8.0\Assignment 3.RazorAssemblyInfo.cache
+C:\Asp_As3\obj\Debug\net8.0\Assignment 3.RazorAssemblyInfo.cs
+C:\Asp_As3\obj\Debug\net8.0\Assignment 3.sourcelink.json
+C:\Asp_As3\obj\Debug\net8.0\staticwebassets.build.json
+C:\Asp_As3\obj\Debug\net8.0\staticwebassets.development.json
+C:\Asp_As3\obj\Debug\net8.0\staticwebassets\msbuild.Assignment 3.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Asp_As3\obj\Debug\net8.0\staticwebassets\msbuild.build.Assignment 3.props
+C:\Asp_As3\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Assignment 3.props
+C:\Asp_As3\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Assignment 3.props
+C:\Asp_As3\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Asp_As3\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Asp_As3\obj\Debug\net8.0\scopedcss\bundle\Assignment 3.styles.css
+C:\Asp_As3\obj\Debug\net8.0\scopedcss\projectbundle\Assignment 3.bundle.scp.css
+C:\Asp_As3\obj\Debug\net8.0\Assignment 3.dll
+C:\Asp_As3\obj\Debug\net8.0\refint\Assignment 3.dll
+C:\Asp_As3\obj\Debug\net8.0\Assignment 3.pdb
+C:\Asp_As3\obj\Debug\net8.0\Assignment 3.genruntimeconfig.cache
+C:\Asp_As3\obj\Debug\net8.0\ref\Assignment 3.dll

@@ -1,0 +1,17 @@
+{
+  "topic_1": {
+    "title": "Data Structures",
+    "no_of_questions": 10,
+    "questions": [
+      {
+        "id": 1,
+        "question": "what is aa Array?",
+        "options": [
+          "Sequentially stored values",
+          "collection of unique items",
+          ""
+        ]
+      }
+    ]
+  }
+}

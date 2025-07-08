@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Assignment_3.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json.Nodes;
 
 namespace Assignment_3.Controllers
 {
@@ -8,11 +10,16 @@ namespace Assignment_3.Controllers
         // GET: AppController
         public ActionResult Index()
         {
-            return View();
+            
+          TopicsList topicsList = new TopicsList();
+          JsonArray _list = topicsList.getList();
+           
+
+            return View(_list);
         }
 
-        // GET: AppController/Details/5
-        public ActionResult Details(int id)
+        // GET: AppController/Quiz/
+        public ActionResult Quiz(string quiz_topic)
         {
             return View();
         }
