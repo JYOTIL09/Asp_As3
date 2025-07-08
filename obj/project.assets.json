@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\c0934781\\source\\repos\\Assignment 3\\Assignment 3.csproj",
+      "projectUniqueName": "C:\\Asp_As3\\Assignment 3.csproj",
       "projectName": "Assignment 3",
-      "projectPath": "C:\\Users\\c0934781\\source\\repos\\Assignment 3\\Assignment 3.csproj",
+      "projectPath": "C:\\Asp_As3\\Assignment 3.csproj",
       "packagesPath": "C:\\Users\\c0934781\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\c0934781\\source\\repos\\Assignment 3\\obj\\",
+      "outputPath": "C:\\Asp_As3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\c0934781\\AppData\\Roaming\\NuGet\\NuGet.Config",
