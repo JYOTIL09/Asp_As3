@@ -1,17 +1,82 @@
 {
   "topic_1": {
-    "title": "Data Structures",
-    "no_of_questions": 10,
-    "questions": [
-      {
-        "id": 1,
-        "question": "what is aa Array?",
-        "options": [
-          "Sequentially stored values",
-          "collection of unique items",
-          ""
-        ]
-      }
-    ]
-  }
+  "title": "Data Structures",
+  "no_of_questions": 20,
+  "questions": [
+    { "id": 1, "question": "What data structure follows LIFO?", "options": ["Queue", "Array", "Stack", "Tree"], "answer": 2 },
+    { "id": 2, "question": "Which structure is best for hierarchical data?", "options": ["Hash Table", "Linked List", "Tree", "Queue"], "answer": 2 },
+    { "id": 3, "question": "Time complexity to access an element in an array?", "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"], "answer": 0 },
+    { "id": 4, "question": "Hash Table stores data as?", "options": ["Linear list", "Key-value pairs", "Tree nodes", "Pointers"], "answer": 1 },
+    { "id": 5, "question": "Which is not a linear data structure?", "options": ["Array", "Stack", "Linked List", "Tree"], "answer": 3 },
+    { "id": 6, "question": "Which allows insertion and deletion from both ends?", "options": ["Queue", "Stack", "Deque", "Tree"], "answer": 2 },
+    { "id": 7, "question": "Linked list elements are connected using?", "options": ["Pointers", "Indexes", "Keys", "Addresses"], "answer": 0 },
+    { "id": 8, "question": "Which structure uses priority for access?", "options": ["Stack", "Queue", "Priority Queue", "Set"], "answer": 2 },
+    { "id": 9, "question": "Which traversal is used for binary search trees?", "options": ["Inorder", "Preorder", "Postorder", "Levelorder"], "answer": 0 },
+    { "id": 10, "question": "Which structure supports fast lookup?", "options": ["Linked List", "Stack", "Hash Table", "Tree"], "answer": 2 },
+    { "id": 11, "question": "What is the worst case time for searching in a hash table?", "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"], "answer": 1 },
+    { "id": 12, "question": "Which structure is best for recursion?", "options": ["Queue", "Deque", "Stack", "Tree"], "answer": 2 },
+    { "id": 13, "question": "How many children can a binary tree node have?", "options": ["1", "2", "3", "4"], "answer": 1 },
+    { "id": 14, "question": "Which structure uses backtracking?", "options": ["Queue", "Stack", "Graph", "Set"], "answer": 1 },
+    { "id": 15, "question": "In a circular queue, when is it full?", "options": ["Front = Rear", "Rear = Front - 1", "Rear = Size - 1", "Front = Size"], "answer": 1 },
+    { "id": 16, "question": "Depth-first search uses which structure?", "options": ["Queue", "Stack", "List", "Table"], "answer": 1 },
+    { "id": 17, "question": "Breadth-first search uses which structure?", "options": ["Tree", "Stack", "Queue", "Set"], "answer": 2 },
+    { "id": 18, "question": "Which is dynamic in size?", "options": ["Array", "Linked List", "Stack", "Hash Table"], "answer": 1 },
+    { "id": 19, "question": "Which traversal visits root last?", "options": ["Preorder", "Inorder", "Postorder", "None"], "answer": 2 },
+    { "id": 20, "question": "Which structure is optimal for frequent insertions?", "options": ["Array", "Linked List", "Stack", "Queue"], "answer": 1 }
+  ]
+},
+
+  "topic_2": {
+  "title": "Web Development",
+  "no_of_questions": 20,
+  "questions": [
+    { "id": 1, "question": "What does HTML stand for?", "options": ["Hyperlinks and Text Markup Language", "HyperText Markup Language", "Home Tool Markup Language", "Hyper Tag Management Language"], "answer": 1 },
+    { "id": 2, "question": "Which tag is used for the largest heading?", "options": ["<h6>", "<head>", "<h1>", "<header>"], "answer": 2 },
+    { "id": 3, "question": "Which language is used for styling web pages?", "options": ["HTML", "JQuery", "CSS", "XML"], "answer": 2 },
+    { "id": 4, "question": "What does CSS stand for?", "options": ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style Syntax", "Colorful Style Sheets"], "answer": 0 },
+    { "id": 5, "question": "Which property is used to change text color in CSS?", "options": ["text-color", "font-color", "color", "text-style"], "answer": 2 },
+    { "id": 6, "question": "Which of these is a JavaScript framework?", "options": ["Laravel", "Django", "React", "Bootstrap"], "answer": 2 },
+    { "id": 7, "question": "What is used to link an external CSS file?", "options": ["<script>", "<style>", "<link>", "<css>"], "answer": 2 },
+    { "id": 8, "question": "Which symbol is used for comments in HTML?", "options": ["/* */", "//", "<!-- -->", "#"], "answer": 2 },
+    { "id": 9, "question": "How do you write 'Hello World' in JavaScript?", "options": ["print('Hello World')", "console.log('Hello World')", "echo 'Hello World'", "document('Hello World')"], "answer": 1 },
+    { "id": 10, "question": "Which HTML tag is used to embed an image?", "options": ["<pic>", "<image>", "<img>", "<src>"], "answer": 2 },
+    { "id": 11, "question": "How do you create a hyperlink in HTML?", "options": ["<link>", "<a>", "<href>", "<hyper>"], "answer": 1 },
+    { "id": 12, "question": "JavaScript is a...", "options": ["Backend language", "Markup language", "Programming language", "Database"], "answer": 2 },
+    { "id": 13, "question": "What does DOM stand for?", "options": ["Document Object Mapping", "Data Object Model", "Document Object Model", "Digital Object Manager"], "answer": 2 },
+    { "id": 14, "question": "Which method is used to get an element by ID in JavaScript?", "options": ["document.query()", "document.getElement()", "document.getElementById()", "getElementByName()"], "answer": 2 },
+    { "id": 15, "question": "Which CSS property controls layout alignment?", "options": ["float", "align", "justify", "position"], "answer": 0 },
+    { "id": 16, "question": "What does the <br> tag do?", "options": ["Makes text bold", "Adds a line break", "Creates a new paragraph", "Adds a rule"], "answer": 1 },
+    { "id": 17, "question": "Which of the following is NOT a valid HTML tag?", "options": ["<div>", "<section>", "<container>", "<nav>"], "answer": 2 },
+    { "id": 18, "question": "What is the default position value in CSS?", "options": ["fixed", "absolute", "static", "relative"], "answer": 2 },
+    { "id": 19, "question": "How do you define a function in JavaScript?", "options": ["func myFunc()", "function = myFunc()", "define myFunc()", "function myFunc()"], "answer": 3 },
+    { "id": 20, "question": "Which tool compiles Sass into CSS?", "options": ["Webpack", "Sass Loader", "Node.js", "Browsers directly"], "answer": 1 }
+  ]
+},
+
+  "topic_3": {
+  "title": "Embedded Systems",
+  "no_of_questions": 20,
+  "questions": [
+    { "id": 1, "question": "What is an embedded system?", "options": ["A type of desktop computer", "A software-only system", "A computer integrated into a device", "A virtual machine"], "answer": 2 },
+    { "id": 2, "question": "Which is commonly used microcontroller?", "options": ["Intel i9", "ATmega328", "Ryzen 7", "Snapdragon X1"], "answer": 1 },
+    { "id": 3, "question": "Real-time operating systems prioritize...", "options": ["User interface", "Latency", "Battery life", "Graphics"], "answer": 1 },
+    { "id": 4, "question": "Which memory is non-volatile?", "options": ["RAM", "Cache", "EEPROM", "Register"], "answer": 2 },
+    { "id": 5, "question": "GPIO stands for?", "options": ["General Purpose Input Output", "Graphic Protocol Interface Output", "Ground Pin Internal Output", "Global Port I/O"], "answer": 0 },
+    { "id": 6, "question": "Which communication protocol is synchronous?", "options": ["UART", "SPI", "RS-232", "Bluetooth"], "answer": 1 },
+    { "id": 7, "question": "Which is a feature of embedded systems?", "options": ["Multi-user OS", "Dedicated function", "Full GUI", "Server hosting"], "answer": 1 },
+    { "id": 8, "question": "Which language is popular in embedded programming?", "options": ["Python", "Java", "C", "PHP"], "answer": 2 },
+    { "id": 9, "question": "Interrupts are used to...", "options": ["Delay processing", "Ignore events", "Stop power flow", "Handle asynchronous events"], "answer": 3 },
+    { "id": 10, "question": "Which sensor detects light?", "options": ["Accelerometer", "Thermistor", "Photodiode", "Gyroscope"], "answer": 2 },
+    { "id": 11, "question": "What does ADC do?", "options": ["Amplifies signals", "Converts analog to digital", "Stores data", "Communicates with server"], "answer": 1 },
+    { "id": 12, "question": "Which is a power-saving mode?", "options": ["Active", "Idle", "Boost", "Turbo"], "answer": 1 },
+    { "id": 13, "question": "Flash memory is used for...", "options": ["Temporary storage", "Power supply", "Permanent storage", "Display rendering"], "answer": 2 },
+    { "id": 14, "question": "Which protocol is used in automotive?", "options": ["CAN", "Wi-Fi", "HTTP", "FTP"], "answer": 0 },
+    { "id": 15, "question": "RTOS stands for...", "options": ["Random Testing OS", "Real-Time Operating System", "Remote Triggered OS", "Rapid Transfer OS"], "answer": 1 },
+    { "id": 16, "question": "What does PWM stand for?", "options": ["Power With Motor", "Pulse Width Modulation", "Protocol Wire Mode", "Performance Web Module"], "answer": 1 },
+    { "id": 17, "question": "Which bus connects CPU to memory?", "options": ["Address Bus", "Data Bus", "Control Bus", "Universal Bus"], "answer": 1 },
+    { "id": 18, "question": "Which component stabilizes voltage?", "options": ["Capacitor", "Inductor", "Resistor", "Voltage Regulator"], "answer": 3 },
+    { "id": 19, "question": "Which tool is used for embedded debugging?", "options": ["Compiler", "Debugger", "Linker", "Simulator"], "answer": 1 },
+    { "id": 20, "question": "Embedded firmware is usually stored in...", "options": ["ROM", "RAM", "Hard disk", "SD card"], "answer": 0 }
+  ]
+}
 }

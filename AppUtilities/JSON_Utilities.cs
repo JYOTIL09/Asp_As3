@@ -7,13 +7,13 @@ namespace Assignment_3.AppUtilities
     {
         public static JsonObject ReadFromFile(string path) 
         {
-            JsonObject data;
+            JsonObject data = new JsonObject();
             try
             {
                 if (!File.Exists(path))
                 {
                     Console.WriteLine("File not found.");
-                    return default(JsonObject);
+                    return data;
                 }
 
                 string json = File.ReadAllText(path);
@@ -25,7 +25,7 @@ namespace Assignment_3.AppUtilities
                 Console.WriteLine("Error in getting JSON"+ex.Message);
             }
             
-            return default(JsonObject);
+            return data;
         }
     }
 }

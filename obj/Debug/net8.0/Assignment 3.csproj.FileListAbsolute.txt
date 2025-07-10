@@ -31,3 +31,35 @@ C:\Asp_As3\obj\Debug\net8.0\refint\Assignment 3.dll
 C:\Asp_As3\obj\Debug\net8.0\Assignment 3.pdb
 C:\Asp_As3\obj\Debug\net8.0\Assignment 3.genruntimeconfig.cache
 C:\Asp_As3\obj\Debug\net8.0\ref\Assignment 3.dll
+D:\ASP NET\New folder (2)\Asp_As3\bin\Debug\net8.0\appsettings.Development.json
+D:\ASP NET\New folder (2)\Asp_As3\bin\Debug\net8.0\appsettings.json
+D:\ASP NET\New folder (2)\Asp_As3\bin\Debug\net8.0\Database\topics.json
+D:\ASP NET\New folder (2)\Asp_As3\bin\Debug\net8.0\Database\questionnaire.json
+D:\ASP NET\New folder (2)\Asp_As3\bin\Debug\net8.0\Assignment 3.staticwebassets.runtime.json
+D:\ASP NET\New folder (2)\Asp_As3\bin\Debug\net8.0\Assignment 3.staticwebassets.endpoints.json
+D:\ASP NET\New folder (2)\Asp_As3\bin\Debug\net8.0\Assignment 3.exe
+D:\ASP NET\New folder (2)\Asp_As3\bin\Debug\net8.0\Assignment 3.deps.json
+D:\ASP NET\New folder (2)\Asp_As3\bin\Debug\net8.0\Assignment 3.runtimeconfig.json
+D:\ASP NET\New folder (2)\Asp_As3\bin\Debug\net8.0\Assignment 3.dll
+D:\ASP NET\New folder (2)\Asp_As3\bin\Debug\net8.0\Assignment 3.pdb
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\Assignment 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\Assignment 3.AssemblyInfoInputs.cache
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\Assignment 3.AssemblyInfo.cs
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\Assignment 3.csproj.CoreCompileInputs.cache
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\Assignment 3.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\Assignment 3.RazorAssemblyInfo.cache
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\Assignment 3.RazorAssemblyInfo.cs
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\Assignment 3.sourcelink.json
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\scopedcss\bundle\Assignment 3.styles.css
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\scopedcss\projectbundle\Assignment 3.bundle.scp.css
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\staticwebassets.build.json
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\staticwebassets.development.json
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\Assignment 3.dll
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\refint\Assignment 3.dll
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\Assignment 3.pdb
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\Assignment 3.genruntimeconfig.cache
+D:\ASP NET\New folder (2)\Asp_As3\obj\Debug\net8.0\ref\Assignment 3.dll
