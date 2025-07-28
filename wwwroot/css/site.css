@@ -20,3 +20,27 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.options_cont{
+    display : flex;
+    flex-direction : column;
+
+}
+
+.option_node {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    gap: 5px;
+    align-items: center;
+    /* border: 1px solid blue; */
+    padding: 12px;
+    padding-left: 20px;
+    margin-bottom: 18px;
+    box-shadow: 1px 1px 2px grey;
+    border-radius: 5px;
+}
+
+.option_node > * {
+    cursor : pointer;
+}

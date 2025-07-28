@@ -6,9 +6,8 @@
     { "id": 1, "question": "What data structure follows LIFO?", "options": ["Queue", "Array", "Stack", "Tree"], "answer": 2 },
     { "id": 2, "question": "Which structure is best for hierarchical data?", "options": ["Hash Table", "Linked List", "Tree", "Queue"], "answer": 2 },
     { "id": 3, "question": "Time complexity to access an element in an array?", "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"], "answer": 0 },
-    { "id": 4, "question": "Hash Table stores data as?", "options": ["Linear list", "Key-value pairs", "Tree nodes", "Pointers"], "answer": 1 },
-    { "id": 5, "question": "Which is not a linear data structure?", "options": ["Array", "Stack", "Linked List", "Tree"], "answer": 3 }
-    
+    { "id": 4, "question": "Hash Table stores data as?", "options": ["Linear list", "Key-value pairs", "Tree nodes", "Pointers"], "answer": 1 }
+
   ]
 },
 

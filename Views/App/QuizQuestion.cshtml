@@ -7,23 +7,76 @@
 }
 
 
-    <ol>
-        <li style="margin-bottom:20px">
-            <h3>@Model["question"]?.ToString()</h3>
+
+<h3>@questionId . @Model["question"]?.ToString()</h3>
 
         <form method="post" asp-action="SubmitAnswer">
             <input type="hidden" name="questionId" value="@questionId" />
             <input type="hidden" name="topicId" value="@ViewBag.topicId" />
-            <button type="submit" name="selectedOption" value="@Model["options"][0]?.ToString()"> @Model["options"][0]?.ToString() </button>
-            <button type="submit" name="selectedOption" value="@Model["options"][1]?.ToString()"> @Model["options"][1]?.ToString() </button>
-            <button type="submit" name="selectedOption" value="@Model["options"][2]?.ToString()"> @Model["options"][2]?.ToString() </button>
-            <button type="submit" name="selectedOption" value="@Model["options"][3]?.ToString()"> @Model["options"][3]?.ToString() </button>
+            <div class="options_cont">
+
+           <div class="option_node">
+
+                @if (ViewBag.preSelected == "0")
+                {
+                    <input required type="radio" name="selectedOption" id="selectedOption0" checked  value="0" /> <label for="selectedOption0"> @Model["options"][0]?.ToString() </label>
+                }
+                else
+                {
+                    <input required type="radio" name="selectedOption" id="selectedOption0"  value="0" /> <label for="selectedOption0"> @Model["options"][0]?.ToString() </label>
+                }
+                </div>
+
+                 <div class="option_node">
+
+                @if (ViewBag.preSelected == "1")
+                {
+                    <input required type="radio" name="selectedOption" id="selectedOption1" checked  value="1" /> <label for="selectedOption1"> @Model["options"][1]?.ToString() </label>
+                }
+                else
+                {
+                    <input required type="radio" name="selectedOption" id="selectedOption1"  value="1" /> <label for="selectedOption1"> @Model["options"][1]?.ToString() </label>
+                }
+                </div>
+
+                 <div class="option_node">
+
+                @if (ViewBag.preSelected == "2")
+                {
+                    <input required type="radio" name="selectedOption" id="selectedOption2" checked  value="2" /> <label for="selectedOption2"> @Model["options"][2]?.ToString() </label>
+                }
+                else
+                {
+                    <input required type="radio" name="selectedOption" id="selectedOption2"  value="2" /> <label for="selectedOption2"> @Model["options"][2]?.ToString() </label>
+                }
+                </div>
+
+        <div class="option_node">
+
+            @if (ViewBag.preSelected == "3")
+            {
+                <input required type="radio" name="selectedOption" id="selectedOption3" checked value="3" /> <label for="selectedOption3"> @Model["options"][3]?.ToString() </label>
+            }
+            else
+            {
+                <input required type="radio" name="selectedOption" id="selectedOption3" value="3" /> <label for="selectedOption3"> @Model["options"][3]?.ToString() </label>
+            }
+        </div>
+                
+
+            <div>
+              
+                @if (@ViewBag.prevId > 0)
+                {
+
+                
+                <button  type="submit" name="direction" value="prev">  Prev </button>
+                    }
+                
+                <button type="submit" name="direction" value="next"> Next</button>
+            </div>
         </form>
 
 
-        </li>
-</ol>
 
 
-<button type="button"> <a asp-controller="App" asp-action="QuizQuestion" asp-route-id="@ViewBag.previd" asp-route-topicId="@ViewBag.topicId">Prev</a></button>
-<button type="button"> <a asp-controller="App" asp-action="QuizQuestion" asp-route-id="@ViewBag.nextid" asp-route-topicId="@ViewBag.topicId">Next</a></button>

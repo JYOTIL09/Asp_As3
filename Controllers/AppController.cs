@@ -36,6 +36,8 @@ namespace Assignment_3.Controllers
         {
             ViewBag.title = quiz_topic;
             ViewBag.topicId = topic_id;
+            ViewBag.preSelected = "";
+            HttpContext.Session.SetString("UserAnswers", "{}");
             JsonObject questions_object = new JsonObject();
             JsonArray questions_array = new JsonArray();
             try
@@ -50,7 +52,7 @@ namespace Assignment_3.Controllers
             return View(questions_array);
         }
 
-        public ActionResult QuizQuestion(string id, string topicId)
+        public ActionResult QuizQuestion(string id, string topicId, bool showPrev = false)
         {
             var questionsJson = _questionService.GetQuestionsJson();
             var topicObj = questionsJson[topicId]?.AsObject();
@@ -71,13 +73,35 @@ namespace Assignment_3.Controllers
             ViewBag.topicId = topicId;
             ViewBag.questionId = id;
 
+            
+                var answers = HttpContext.Session.GetString("UserAnswers");
+                Dictionary<string, string> userAnswers;
+
+                if (answers != null)
+                {
+                    userAnswers = JsonSerializer.Deserialize<Dictionary<string, string>>(answers);
+
+                try
+                {
+                    ViewBag.preSelected = userAnswers[(_id).ToString()];
+                    Console.WriteLine(ViewBag.preSelected);
+
+                }
+                catch (Exception ex)
+                {
+                    ViewBag.preSelected = "";
+                }
+
+                }
+
+            
             return View(questionObject);
         }
 
 
 
         [HttpPost]
-        public IActionResult SubmitAnswer(string questionId, string topicId, string selectedOption)
+        public IActionResult SubmitAnswer(string questionId, string topicId, string selectedOption, string direction)
         {
             var answers = HttpContext.Session.GetString("UserAnswers");
             Dictionary<string, string> userAnswers;
@@ -95,8 +119,17 @@ namespace Assignment_3.Controllers
 
             HttpContext.Session.SetString("UserAnswers", JsonSerializer.Serialize(userAnswers));
 
+            
+
+            if (direction == "prev")
+            {
+                int prevId = int.Parse(questionId) - 1;
+                return RedirectToAction("QuizQuestion", new { id = prevId, topicId = topicId, showPrev = true });
+
+            }
+
             int nextId = int.Parse(questionId) + 1;
-            return RedirectToAction("QuizQuestion", new { id = nextId, topicId = topicId });
+            return RedirectToAction("QuizQuestion", new { id = nextId, topicId = topicId , showPrev = false });
         }
 
         public IActionResult ShowResult(string topicId)
