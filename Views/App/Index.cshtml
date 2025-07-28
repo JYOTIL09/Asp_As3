@@ -12,7 +12,8 @@
             if (topicObj != null)
             {
                 <li>
-                    <a asp-controller="App" asp-action="Quiz" asp-route-quiz_topic="@topicObj["title"]?.ToString()" > @topicObj["title"]?.ToString() </a>
+                    <a asp-controller="App" asp-action="Quiz" asp-route-quiz_topic="@topicObj["title"]?.ToString()"
+                       asp-route-topic_id="@topicObj["id"]?.ToString()"> @topicObj["title"]?.ToString() </a>
                 </li>
             }
         }

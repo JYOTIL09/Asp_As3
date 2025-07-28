@@ -1,8 +1,10 @@
+using Assignment_3.AppUtilities;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddSingleton<IQuestionService, QuestionService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

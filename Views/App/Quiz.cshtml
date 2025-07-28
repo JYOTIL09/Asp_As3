@@ -1,5 +1,27 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+@model System.Text.Json.Nodes.JsonArray
+
 <h1>Quiz Started</h1>
 <h2>@ViewBag.title</h2>
+
+<button type="button"> <a asp-controller="App" asp-action="QuizQuestion" asp-route-id="1" asp-route-topicId="@ViewBag.topicId">Start Quiz</a></button>
+<ul>
+    @* @foreach (var questionNode in Model)
+    {
+        var questionObj = questionNode?.AsObject();
+        if (questionObj != null)
+        {
+            <li style="margin-bottom:20px">
+                <h3>@questionObj["question"]?.ToString()</h3>
+                <ol>
+                    <li>@questionObj["options"][0]?.ToString()</li>
+                    <li>@questionObj["options"][1]?.ToString()</li>
+                    <li>@questionObj["options"][2]?.ToString()</li>
+                    <li>@questionObj["options"][3]?.ToString()</li>
+                </ol>
+            </li>
+        }
+    } *@
+</ul>
