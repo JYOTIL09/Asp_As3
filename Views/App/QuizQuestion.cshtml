@@ -2,18 +2,28 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @model System.Text.Json.Nodes.JsonObject
+@{
+    var questionId = ViewBag.questionId ?? ViewBag.nextid - 1;
+}
 
 
-    
+    <ol>
         <li style="margin-bottom:20px">
             <h3>@Model["question"]?.ToString()</h3>
-            <ol>
-        <li>@Model["options"][0]?.ToString()</li>
-        <li>@Model["options"][1]?.ToString()</li>
-        <li>@Model["options"][2]?.ToString()</li>
-        <li>@Model["options"][3]?.ToString()</li>
-            </ol>
+
+        <form method="post" asp-action="SubmitAnswer">
+            <input type="hidden" name="questionId" value="@questionId" />
+            <input type="hidden" name="topicId" value="@ViewBag.topicId" />
+            <button type="submit" name="selectedOption" value="@Model["options"][0]?.ToString()"> @Model["options"][0]?.ToString() </button>
+            <button type="submit" name="selectedOption" value="@Model["options"][1]?.ToString()"> @Model["options"][1]?.ToString() </button>
+            <button type="submit" name="selectedOption" value="@Model["options"][2]?.ToString()"> @Model["options"][2]?.ToString() </button>
+            <button type="submit" name="selectedOption" value="@Model["options"][3]?.ToString()"> @Model["options"][3]?.ToString() </button>
+        </form>
+
+
         </li>
+</ol>
+
 
 <button type="button"> <a asp-controller="App" asp-action="QuizQuestion" asp-route-id="@ViewBag.previd" asp-route-topicId="@ViewBag.topicId">Prev</a></button>
 <button type="button"> <a asp-controller="App" asp-action="QuizQuestion" asp-route-id="@ViewBag.nextid" asp-route-topicId="@ViewBag.topicId">Next</a></button>

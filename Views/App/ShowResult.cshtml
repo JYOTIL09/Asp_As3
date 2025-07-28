@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Quiz Result";
+    var score = ViewBag.Score;
+    var total = ViewBag.Total;
+}
+
+<div style="text-align:center; margin-top: 40px;">
+    <h2>🎉 Quiz Completed!</h2>
+    <h3>Your Score: @score / @total</h3>
+
+    <div style="margin-top: 30px;">
+        <a asp-controller="App" asp-action="Index" class="btn btn-primary">Back to Topics</a>
+    </div>
+</div>
